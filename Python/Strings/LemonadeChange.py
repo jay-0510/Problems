@@ -1,5 +1,5 @@
 class Solution:
-    def lemonadeChange(self, bills: List[int]) -> bool:
+    def lemonadeChange(self, bills: list[int]) -> bool:
         five, ten = 0, 0  # Track the count of $5 and $10 bills
         
         for bill in bills:
