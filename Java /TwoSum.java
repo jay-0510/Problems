@@ -9,7 +9,8 @@ class Solution {
         }
         return new int[] {};
     }
-       public static void main(String[] args) {
+
+    public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
@@ -18,3 +19,9 @@ class Solution {
         System.out.println("Indices: " + result[0] + ", " + result[1]);
     }
 }
+
+// Easiet way to solve this problem - optimal method
+// Basic ones- two pointers, hash table, sorting
+// Two pointers - not suitable for this problem
+// Hash table - suitable for this problem
+// Sorting - not suitable for this problem
